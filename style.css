@@ -1,0 +1,36 @@
+
+body{
+    position: relative;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    min-height: 100vh; 
+    justify-content: center;
+    /* flex-direction: column; */
+    /* align-content: space-around; */
+
+}
+.table{
+  
+    border:1px solid black;
+    display: table;
+    display: inline-block;
+    text-align: center;
+  
+}
+.tr{
+    display: table-row;
+    padding: 7px;
+   
+
+  
+}
+.td{
+    display: table-cell;
+    border: 1px solid black;
+    padding: 7px;
+   
+    
+   
+}
